@@ -26,6 +26,10 @@ export const donors: Donor[] = [
     name: "Brett and Sylvie",
     km: 99
   },
+  {
+    name: "Karen Engeland",
+    km: 100
+  }
 ];
 
 export function priceForKm(km: number) {
