@@ -3,6 +3,7 @@
 import { useState } from "react";
 import FactsSlideshow, { type KarmaFact } from "./FactsSlideshow";
 import Fundraising from "./Fundraising";
+import NicknameGenerator from "./NicknameGenerator";
 import facts from "./facts.json";
 import styles from "./page.module.css";
 
@@ -10,6 +11,7 @@ const tabs = [
   { id: "treatment", label: "The Cause" },
   { id: "ride", label: "The Ride" },
   { id: "facts", label: "Karma Facts" },
+  { id: "nicknames", label: "Karma Nickname Generator" },
 ] as const;
 
 type TabId = (typeof tabs)[number]["id"];
@@ -102,6 +104,17 @@ export default function HomeTabs() {
             className={`${styles.about} ${styles.facts}`}
           >
             <FactsSlideshow facts={facts as KarmaFact[]} />
+          </section>
+        ) : null}
+
+        {tab === "nicknames" ? (
+          <section
+            role="tabpanel"
+            id="panel-nicknames"
+            aria-labelledby="tab-nicknames"
+            className={`${styles.about} ${styles.tabCopy}`}
+          >
+            <NicknameGenerator />
           </section>
         ) : null}
       </div>

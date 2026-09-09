@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import type { ReactNode } from "react";
-import { Bagel_Fat_One, Bungee, Fredoka } from "next/font/google";
+import { Bagel_Fat_One, Baloo_2, Bungee, Fredoka } from "next/font/google";
 import "./globals.css";
 
 const display = Bagel_Fat_One({
@@ -17,6 +17,12 @@ const sans = Fredoka({
 const bungee = Bungee({
   weight: "400",
   variable: "--font-bungee",
+  subsets: ["latin"],
+});
+
+const nickname = Baloo_2({
+  weight: ["700", "800"],
+  variable: "--font-nickname",
   subsets: ["latin"],
 });
 
@@ -39,7 +45,7 @@ export default function RootLayout({
   children: ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${display.variable} ${sans.variable} ${bungee.variable}`}>
+    <html lang="en" className={`${display.variable} ${sans.variable} ${bungee.variable} ${nickname.variable}`}>
       <body>
         {children}
       </body>

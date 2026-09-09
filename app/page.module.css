@@ -171,16 +171,17 @@
   flex: 1 1 0;
   min-width: 0;
   font: inherit;
-  font-size: clamp(0.78rem, 3.1vw, 1.05rem);
+  font-size: clamp(0.58rem, 2.3vw, 1.05rem);
   font-weight: 700;
   color: var(--ink-muted);
   background: transparent;
   border: none;
   border-bottom: 4px solid transparent;
-  padding: 0.7rem 0.35rem 0.65rem;
+  padding: 0.55rem 0.25rem 0.55rem;
   margin-bottom: -5px;
   text-align: center;
-  white-space: nowrap;
+  white-space: normal;
+  line-height: 1.2;
   cursor: pointer;
 }
 
@@ -225,7 +226,8 @@
 }
 
 .story {
-  max-width: 46rem;
+  width: 100%;
+  max-width: none;
   font-size: 1.08rem;
   line-height: 1.65;
   color: var(--ink-muted);
