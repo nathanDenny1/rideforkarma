@@ -16,8 +16,16 @@
     "image": "/images/dumpster.jpg"
   },
   {
+    "fact": "Karma is romantically involved with someone, you just don't know them because they go to a different school.",
+    "image": "/images/karmaCute.jpg"
+  },
+  {
     "fact": "Karma hates Mondays and loves lasagna.",
     "image": "/images/lasag.jpg"
+  },
+  {
+    "fact": "Karma is 3 years sober!!!",
+    "image": "/images/beer.jpg"
   },
   {
     "fact": "Karma is a 12 time Olympic gold medalist. She has won events in swimming, diving, and track and field.",
@@ -29,15 +37,15 @@
   },
   {
     "fact": "The sirens in ancient Greek mythology were inspired by Karma",
-    "image": "/images/siren.jpg"
-  },
-  {
-    "fact": "Karma is 3 years sober!!!",
-    "image": "/images/beer.jpg"
+    "image": "/images/karmaYell.jpg"
   },
   {
     "fact": "Karma is responsible for the eruption of Mount Vesuvius.",
     "image": "/images/vesuvius.jpg"
+  },
+  {
+    "fact": "Karma was strongly considered for the role of ' the 4th Beatle', but was ultimately rejected for being too good at playing the drums.",
+    "image": "/images/beatles.jpg"
   },
   {
     "fact": "Karma is good friends with Westside Gunn.",

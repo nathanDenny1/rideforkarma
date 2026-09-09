@@ -50,15 +50,16 @@ export default function HomeTabs() {
             className={`${styles.about} ${styles.tabCopy}`}
           >
             <p className={styles.story}>
-              Poor Karma has recently been diagnosed with hyperthyroidism. Due to this condition, she has been loosing weight, 
+              Poor Karma has recently been diagnosed with hyperthyroidism. Due to this condition, she has been losing weight, 
               sleeping irregularly, and vocalizing much more than usual. Luckily, a cure is available. Unfortunately,
               Karma is unemployed (she has been applying to lots of places though!) and can&apos;t
               afford the treatment on her own.
             </p>
             <h3>More about the treatment</h3>
             <p className={styles.story}>
-              The treatment uses radioactive iodine to bring her thyroid back in line. That&apos;s why we&apos;re raising money to get Karma the care she
-              deserves. Karma will be treated by North West Nuclear Medicine for Animals in Vancouver, you can
+              The treatment for hyperthyroidism in cats involves the use of radioactive iodine which is administered orally. 
+              The iodine targets abnormal thyroid cells only, so Karma has no risk of turning into the Hulk during the treatment.
+              Karma will be treated by North West Nuclear Medicine for Animals in Vancouver, you can
               see more information about the treatment{" "}
               <a
                 className={styles.inlineLink}
@@ -68,7 +69,7 @@ export default function HomeTabs() {
               >
                 here
               </a>
-              . Make sure to follow their Instagram, they post pictures of all their patients!
+              . Make sure to follow their Instagram, they post pictures of all their patients (including Karma in the future!)
             </p>
           </section>
         ) : null}
@@ -85,6 +86,10 @@ export default function HomeTabs() {
               You can help Karma out by pledging to buy a kilometer on the road above. Each
               kilometer can be claimed by one donor, and costs the same as the kilometer number
               (eg. km 10 costs $10, km 25 costs $25, etc.). If you would like to help Karma out, you can pledge to buy a kilometer below.
+            </p>
+            <p className={styles.story}>
+              The "Karma Ride for the Cure" will be documented on <a className={styles.inlineLink} href="https://www.instagram.com/delaney.bella/" target="_blank" rel="noopener noreferrer">Delaney's Instagram</a>.
+              We will be shouting out all donors on the day of the ride so make sure to follow!
             </p>
           </section>
         ) : null}

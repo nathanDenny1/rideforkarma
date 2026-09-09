@@ -24,6 +24,10 @@ export const metadata: Metadata = {
   title: "Ride for Karma",
   description:
     "A 100 km charity bike ride raising money for Karma the cat’s hyperthyroidism treatment.",
+  icons: {
+    icon: [{ url: "/images/karmaIcon.png", type: "image/png" }],
+    apple: "/images/karmaIcon.png",
+  },
 };
 
 export default function RootLayout({

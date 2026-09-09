@@ -17,6 +17,10 @@
   min-width: 0;
 }
 
+.headerCopyText {
+  font-size: 1.08rem !important;
+}
+
 .header h2 {
   font-family: var(--font-display);
   font-size: 2rem;
@@ -91,6 +95,11 @@
   border-radius: 999px;
   overflow: hidden;
   border: 2px solid #1a0f16;
+}
+
+.hint {
+  font-size: 0.85rem;
+  color: var(--ink-muted);
 }
 
 .progress span {

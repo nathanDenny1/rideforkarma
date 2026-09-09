@@ -23,10 +23,10 @@ export default function Road({ kmClaimed, goalKm }: RoadProps) {
     <section className={styles.section} aria-labelledby="road-heading">
       <div className={styles.header}>
         <div className={styles.headerCopy}>
-          <p>
+          <p className={styles.headerCopyText}>
             The road below lists all our wonderful donors who have pledged to help get Karma irradiated.
           </p>
-          <p>
+          <p className={styles.headerCopyText}>
             If you would like to help Karma out, you can pledge to buy a kilometer of the road. Each kilometer on the road costs the same as the kilometer number. For example, the first kilometer costs $1, the second kilometer costs $2, and so on.
           </p>
           <button
@@ -100,7 +100,7 @@ export default function Road({ kmClaimed, goalKm }: RoadProps) {
           </div>
         </div>
       </div>
-      <p>*If the kilometer you are buying has already been claimed, you will be assigned to the nearest available kilometer. Please do not attempt to buy a kilometer that already shows as claimed.</p>
+      <p className={styles.hint}>*If the kilometer you are buying has already been claimed, you will be assigned to the nearest available kilometer. Please do not attempt to buy a kilometer that already shows as claimed.</p>
 
       {dialog != null ? (
         <BuyKmDialog
