@@ -25,7 +25,10 @@ export const metadata: Metadata = {
   description:
     "A 100 km charity bike ride raising money for Karma the cat’s hyperthyroidism treatment.",
   icons: {
-    icon: [{ url: "/images/karmaIcon.png", type: "image/png" }],
+    icon: [
+      { url: "/favicon.ico", type: "image/x-icon" },
+      { url: "/images/karmaIcon.png", type: "image/png" },
+    ],
     apple: "/images/karmaIcon.png",
   },
 };
