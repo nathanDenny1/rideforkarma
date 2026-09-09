@@ -85,7 +85,7 @@ export default function HomeTabs() {
           >
             <p className={styles.story}>
               On September 30th, 2026, we are organizing a 100km bike ride to raise money for Karma's treatment.
-              You can help Karma out by pledging to buy a kilometer on the road above. Each
+              You can help Karma out by pledging to buy a kilometer on the road below. Each
               kilometer can be claimed by one donor, and costs the same as the kilometer number
               (eg. km 10 costs $10, km 25 costs $25, etc.). If you would like to help Karma out, you can pledge to buy a kilometer below.
             </p>
