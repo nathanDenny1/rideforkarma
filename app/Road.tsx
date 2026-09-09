@@ -57,11 +57,12 @@ export default function Road({ kmClaimed, goalKm }: RoadProps) {
       </div>
 
       <div className={styles.scroller} tabIndex={0} aria-label="100 kilometer road of donors">
-        <div className={styles.track}>
-          <div className={styles.lane} aria-hidden="true" />
-          <div className={`${styles.marker} ${styles.start}`}>
-            <span className={styles.flag}>Start</span>
-          </div>
+        <div className={styles.trackShell}>
+          <div className={styles.track}>
+            <div className={styles.lane} aria-hidden="true" />
+            <div className={`${styles.marker} ${styles.start}`}>
+              <span className={styles.flag}>Start</span>
+            </div>
 
           {kilometers.map((km) => {
             const donor = donors.get(km);
@@ -105,8 +106,9 @@ export default function Road({ kmClaimed, goalKm }: RoadProps) {
             );
           })}
 
-          <div className={`${styles.marker} ${styles.finish}`}>
-            <span className={styles.flag}>Finish</span>
+            <div className={`${styles.marker} ${styles.finish}`}>
+              <span className={styles.flag}>Finish</span>
+            </div>
           </div>
         </div>
       </div>

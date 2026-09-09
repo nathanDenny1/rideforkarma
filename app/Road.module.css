@@ -123,12 +123,21 @@
   box-shadow: inset 0 0 0 2px var(--accent);
 }
 
+.trackShell {
+  display: table;
+}
+
 .track {
+  --tile-width: 140px;
+  --tile-gap: 0.55rem;
   position: relative;
   display: flex;
+  flex-wrap: nowrap;
   align-items: stretch;
-  gap: 0.55rem;
-  min-width: max-content;
+  gap: var(--tile-gap);
+  box-sizing: border-box;
+  /* start + 100 km + finish = 102 tiles; plus 2 edge stripes = 104 flex items / 103 gaps */
+  width: calc(102 * var(--tile-width) + 16px + 103 * var(--tile-gap) + 2.5rem + 8px);
   padding: 1.4rem 1.25rem 2.1rem;
   background: linear-gradient(180deg, #5a5a60 0%, #3a3a40 38%, #2a2a2e 100%);
   border-radius: 18px;
@@ -392,5 +401,9 @@
   .marker {
     flex-basis: 124px;
     min-height: 120px;
+  }
+
+  .track {
+    --tile-width: 124px;
   }
 }
