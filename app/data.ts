@@ -7,6 +7,14 @@ export type Donor = {
 
 export const donors: Donor[] = [
   {
+    name: "Abby and Scott",
+    km: 10
+  },
+  {
+    name: "Bryce and Sahana",
+    km: 20
+  },
+  {
     name: "Rebecca B",
     km: 75
   }
