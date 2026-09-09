@@ -67,10 +67,20 @@ export default function Road({ kmClaimed, goalKm }: RoadProps) {
             const donor = donors.get(km);
 
             if (donor) {
+                let kmStyle = styles.plain;
+                if (km < 25) {
+                  kmStyle = styles.plain;
+                } else if (km < 50) {
+                  kmStyle = styles.bronze;
+                } else if (km < 75) {
+                  kmStyle = styles.silver;
+                } else {
+                  kmStyle = styles.gold;
+                }
               return (
                 <article
                   key={km}
-                  className={`${styles.segment} ${styles.claimed}`}
+                  className={`${styles.segment} ${styles.claimed} ${kmStyle}`}
                   aria-label={`Kilometer ${km}, claimed by ${donor.name} for $${priceForKm(km)}`}
                 >
                   <span className={styles.kmLabel}>Km {km}</span>
