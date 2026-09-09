@@ -6,6 +6,10 @@ export type Donor = {
 };
 
 export const donors: Donor[] = [
+  {
+    name: "Rebecca B",
+    km: 75
+  }
 ];
 
 export function priceForKm(km: number) {
