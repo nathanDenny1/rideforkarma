@@ -86,7 +86,10 @@ export default function Road({ kmClaimed, goalKm }: RoadProps) {
                 >
                   <span className={styles.kmLabel}>Km {km}</span>
                   <strong className={styles.donorName}>{donor.name}</strong>
-                  <span className={styles.amount}>${priceForKm(km)}</span>
+                  <span className={styles.amount}>
+                    {km === 1 ? "$100" :
+                    km === 98 ? "$98 (+$302)": `$${priceForKm(km)}`}
+                  </span>
                 </article>
               );
             }
