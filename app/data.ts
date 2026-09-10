@@ -22,6 +22,14 @@ export const donors: Donor[] = [
     km: 10
   },
   {
+    name: "Tom Bella",
+    km: 12
+  },
+  {
+    name: "Tom Bella",
+    km: 13
+  },
+  {
     name: "Nic Keeler",
     km: 14
   },
@@ -32,6 +40,10 @@ export const donors: Donor[] = [
   {
     name: "Stephanie Bella",
     km: 39
+  },
+  {
+    name: "Amy Martin",
+    km: 40
   },
   {
     name: "Brandon and Kathleen",
@@ -46,6 +58,10 @@ export const donors: Donor[] = [
     km: 52
   },
   {
+    name: "Chris 'The Brockstar' Brock",
+    km: 53
+  },
+  {
     name: "Stephanie Bella",
     km: 65
   },
@@ -54,8 +70,20 @@ export const donors: Donor[] = [
     km: 75
   },
   {
+    name: "Tom Bella",
+    km: 87
+  },
+  {
+    name: "Tom Bella",
+    km: 88
+  },
+  {
     name: "Stephanie Bella",
     km: 95
+  },
+  {
+    name: "Aidan Denny",
+    km: 97
   },
   {
     name: "Kyle Seckford Denny",
