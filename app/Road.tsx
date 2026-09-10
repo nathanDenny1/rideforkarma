@@ -87,7 +87,7 @@ export default function Road({ kmClaimed, goalKm }: RoadProps) {
                   <span className={styles.kmLabel}>Km {km}</span>
                   <strong className={styles.donorName}>{donor.name}</strong>
                   <span className={styles.amount}>
-                    {donor.customAmount ? `$${donor.customAmount}` : `$${priceForKm(km)}`}
+                    {donor.customAmount ? `$${donor.customAmount}` : `$${priceForKm(km)}`}{km === 69 ? " (nice)": ""}
                   </span>
                 </article>
               );

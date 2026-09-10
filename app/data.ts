@@ -22,6 +22,10 @@ export const donors: Donor[] = [
     km: 10
   },
   {
+    name: "Sally S",
+    km: 11
+  },
+  {
     name: "Tom Bella",
     km: 12
   },
@@ -72,6 +76,10 @@ export const donors: Donor[] = [
   {
     name: "Stephanie Bella",
     km: 65
+  },
+  {
+    name: "Kalem Wight",
+    km: 69
   },
   {
     name: "Rebecca B",
