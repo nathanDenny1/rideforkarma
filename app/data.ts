@@ -7,6 +7,10 @@ export type Donor = {
 
 export const donors: Donor[] = [
   {
+    name: "Adrienne S",
+    km: 1
+  },
+  {
     name: "Abby and Scott",
     km: 10
   },
@@ -27,6 +31,10 @@ export const donors: Donor[] = [
     km: 51
   },
   {
+    name: "Kim Bella",
+    km: 52
+  },
+  {
     name: "Stephanie Bella",
     km: 65
   },
@@ -37,6 +45,10 @@ export const donors: Donor[] = [
   {
     name: "Stephanie Bella",
     km: 95
+  },
+  {
+    name: "Kyle Seckford Denny",
+    km: 98
   },
   {
     name: "Brett and Sylvie",
