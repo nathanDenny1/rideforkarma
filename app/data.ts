@@ -3,12 +3,19 @@ export const GOAL_KM = 100;
 export type Donor = {
   name: string;
   km: number;
+  customAmount?: number;
 };
 
 export const donors: Donor[] = [
   {
     name: "Adrienne and Quinn",
-    km: 1
+    km: 1,
+    customAmount: 100
+  },
+  {
+    name: "Daniel H",
+    km: 2,
+    customAmount: 50
   },
   {
     name: "Abby and Scott",
@@ -48,7 +55,8 @@ export const donors: Donor[] = [
   },
   {
     name: "Kyle Seckford Denny",
-    km: 98
+    km: 98,
+    customAmount: 400
   },
   {
     name: "Brett and Sylvie",
